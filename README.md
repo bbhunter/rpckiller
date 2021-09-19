@@ -27,7 +27,7 @@ This script does Out of Band detection using the burp collaborator or you can us
 "This script does the basic check so make sure to have a good list of endpoints gathered from the target you testing in order to get proper interaction"
 
 ## Developer
-@D0rkerDevil
+[@D0rkerDevil] (https://twitter.com/D0rkerDevil)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
