@@ -5,6 +5,7 @@ This script checks for any possible SSRF dns/http interactions in xmlrpc.php pin
 1. Internal Port scans 
 2. DOS [HTTP Reflection attack]
 3. brute force attacks
+4. Disclose sensitive info disclosure [case by case]
 
 
 ## Installation
