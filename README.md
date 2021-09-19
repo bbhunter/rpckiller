@@ -27,7 +27,12 @@ This script does Out of Band detection using the burp collaborator or you can us
 "This script does the basic check so make sure to have a good list of endpoints gathered from the target you testing in order to get proper interaction"
 
 ## Developer
-[@D0rkerDevil] (https://twitter.com/D0rkerDevil)
+[D0rkerDevil](https://twitter.com/D0rkerDevil)
+
+## References
+https://the-bilal-rizwan.medium.com/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32
+https://shahjerry33.medium.com/cross-site-port-attack-a-strangers-call-c2467f93792f
+https://www.a10networks.com/blog/wordpress-pingback-attack/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
