@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 logging.basicConfig(level=logging.DEBUG)
 from requests.packages import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-print """
+print ("""
 
                                /$$       /$$ /$$ /$$                    
                               | $$      |__/| $$| $$                    
@@ -23,7 +23,7 @@ print """
 
                                             coded by @D0rkerDevil
 USAGE - http(s)://target/xmlrpc.php collab.net/localhost:port '/endpoint/'
-"""
+""")
 
 
 def main():
@@ -69,7 +69,7 @@ def main():
                               data=target_data, timeout=None,
                               verify=False)
             if r.status_code == 200:
-                print r.content
+                print (r.content)
                 with open('vulnerable.txt', 'w') as f:
                     f.write(target)
                     f.write('\n')
@@ -77,8 +77,8 @@ def main():
                     f.write('''
 .........................................................................................................
 ''')
-        except Exception, error:
-            print 'Idiot!!!!'
+        except Exception as error:
+            print ('Idiot!!!!')
 
 
 if __name__ == '__main__':
